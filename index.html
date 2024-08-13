@@ -1,30 +1,456 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment 2</title>
-    <link rel="stylesheet" href="style/style.css">
-</head>
-<body>
-    <header class="banner">
-        <nav class="navbar display-flex">
-<h3 class="name"> <i>Fitness</i> </h3>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body class="inter-font bg-clr">
+    <header class="h-container">
+      <nav class="navbar display-flex">
+        <h3 class="name"><i>Fitness</i></h3>
+        <div class="bdr">
+          <ul class="nav-links parant-flex-header">
+            <button class="h-bdr">Home</button>
+            <li class="nav-item">
+              <a href="" class="nav-link text-gray">Service</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link text-gray">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link text-gray">About</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-<ul class="nav-links  display-flex">
-    <li class="nav-item"><a href="" class="nav-link text-gray">Home</a></li>
-    <li class="nav-item"><a href="" class="nav-link text-gray">Service</a></li>
-    <li class="nav-item"><a href="" class="nav-link text-gray">Contact</a></li>
-    <li class="nav-item"><a href="" class="nav-link text-gray">About</a></li>
+      <!-- pic header -->
+      <div class="banner display-flex">
+        <div class="write">
+          <h1 class="banner-title">
+            Get body in <span class="spe"><i>shape</i></span> & stay healthy
+          </h1>
+          <p class="b-discription">
+            A huge selection of health and fitness content, healthy recipes
+            <br />
+            and transformation stories to help you get fit and stay fit!
+          </p>
+          <div class="button">
+            <button class="butn">Join Club Now!</button>
 
-</ul>
-          </nav>
-         </header>
-         <main>
+            <button class="bbtn">Download App</button>
+          </div>
+        </div>
 
-         </main>
+        <div style="position: relative">
+          <div class="imge display-flex" style="z-index: -10">
+            <img src="images/Images 2.png" alt="" />
+          </div>
+          <div>
+            <div class="btn-primary">
+              <span id="nspn">500+</span> <br />
+              <span id="fspn">Free Workout Videos</span>
+            </div>
+          </div>
+
+          <div class="btn-secondary">
+            <div class="play"></div>
+            <div class="btn-i">
+              <span id="spn">350+</span> <br />
+              <span id="sn">Video tutorial</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- btn image -->
+    </header>
+
+    <main>
+      <!-- change habits -->
+
+      <div class="image-center">
+        <div>
+          <h1 class="bd">Change Your Habits</h1>
+          <p class="text-light-gray tt">
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or <br />
+            access to a gym.
+          </p>
+        </div>
+
+        <div class="img-container">
+          <div>
+            <img class="img" src="images/image 3.png" alt="" />
+            <h4 class="sub">Movement</h4>
+            <p class="text-light-gray tt">
+              We believe fitness should be <br />
+              accessible to everyone
+            </p>
+          </div>
+
+          <div>
+            <img class="img" src="images/image 2.png" alt="" />
+            <h4 class="sub">Time</h4>
+            <p class="text-light-gray tt">
+              We believe fitness should be <br />accessible to everyone
+            </p>
+          </div>
+
+          <div>
+            <img class="img" src="images/image 4.png" alt="" />
+            <h4 class="sub">Practice</h4>
+            <p class="text-light-gray tt">
+              We believe fitness should be <br />accessible to everyone
+            </p>
+          </div>
+
+          <div>
+            <img class="img" src="images/image 5.png" alt="" />
+            <h4 class="sub">Weight Loss</h4>
+            <p class="text-light-gray tt">
+              We believe fitness should be <br />accessible to everyone
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- run extra -->
+
+      <div class="run-container display-flex">
+        <div class="run-discription">
+          <h3 class="run-h">
+            Run an Extra <br />
+            Mile Easily
+          </h3>
+          <p class="text-light-gray">
+            We believe fitness should be accessible to everyone,<br />
+            everywhere, regardless of income or access to a gym.With <br />
+            hundreds of professional workouts.
+          </p>
+          <button class="butn">Join Now</button>
+        </div>
+
+        <div>
+          <img class="run-img" src="images/run.jpg" alt="" />
+        </div>
+      </div>
+
+      <!-- trainings -->
+
+      <div class="t-container">
+        <div class="tttt">
+          <h3 class="t-drptn">Trainings and Exercises</h3>
+          <p class="text-light-gray pt">
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or <br />access to a gym.
+          </p>
+        </div>
+
+        <!-- The gallery Section  -->
+        <div style="margin: 100px 0">
+          <!-- The first row of gallery -->
+          <div class="img-cntnr">
+            <!-- image 1 -->
+            <div class="parant-image-div">
+              <!-- <div class="image-1-main-image"></div> -->
+              <img class="image-1-first" src="./images/exercise1.jpg" />
+              <div class="image-1-overlay"></div>
+              <div class="image-1-text">Lorem Ipsum</div>
+            </div>
+
+            <!-- image 2 -->
+            <div class="parant-image-div">
+              <!-- <div class="image-1-main-image"></div> -->
+              <img class="image-1-first" src="./images/exercise2.png" />
+              <div class="image-2-overlay"></div>
+              <div class="image-2-text">Lorem Ipsum</div>
+            </div>
+
+            <!-- image 3 -->
+            <div class="parant-image-div">
+              <!-- <div class="image-1-main-image"></div> -->
+              <img class="image-1-first" src="./images/exercise3.png" />
+              <div class="image-3-overlay"></div>
+              <div class="image-6-text">
+                <p>Leg Press: Works the</p>
+                <p>quadriceps and glutes</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- The second row of gallery -->
+          <div class="img-container-2">
+            <!-- image 1 -->
+            <div class="parant-image-div">
+              <!-- <div class="image-1-main-image"></div> -->
+              <img class="image-4-first" src="./images/exercise4.png" />
+              <div class="image-4-overlay"></div>
+              <div class="image-4-text">
+                <p>Leg Press: Works the</p>
+                <p>quadriceps and glutes</p>
+              </div>
+            </div>
+
+            <!-- image 2 -->
+            <div class="parant-image-div">
+              <!-- <div class="image-1-main-image"></div> -->
+              <img class="image-1-first" src="./images/exercise5.jpg" />
+              <div class="image-5-overlay"></div>
+              <div class="image-6-text">
+                <p>Leg Press: Works the</p>
+                <p>quadriceps and glutes</p>
+              </div>
+            </div>
+
+            <!-- image 3 -->
+            <div class="parant-image-div">
+              <!-- <div class="image-1-main-image"></div> -->
+              <img class="image-1-first" src="./images/exercise6.jpg" />
+              <div class="image-6-overlay"></div>
+              <div class="image-6-text">
+                <p>Leg Press: Works the</p>
+                <p>quadriceps and glutes</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- The Second row of gallery-->
+          <div></div>
+        </div>
+      </div>
+
+      <!-- bmi cal -->
+
+      <div class="bm-main-container">
+        <div style="max-width: 700px; margin: auto">
+          <h1 class="b-h" style="text-align: left">BMI Calculator</h1>
+          <p class="text-light-gray" style="text-align: left">
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym.
+          </p>
+        </div>
+      </div>
+
+      <!-- BMI Chart part -->
+
+      <div class="main-bmi-container">
+        <div id="bmi-container">
+          <div class="bmi-table">
+            <h1>BMI Calculator Chart</h1>
+            <table>
+              <thead>
+                <tr>
+                  <th>BMI</th>
+                  <th>Weight Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Below 18.5</td>
+                  <td>Underweight</td>
+                </tr>
+                <tr>
+                  <td>18.5 - 24.9</td>
+                  <td>Healthy</td>
+                </tr>
+                <tr>
+                  <td>25.0 - 29.9</td>
+                  <td>Overweight</td>
+                </tr>
+                <tr>
+                  <td>30.0 - and Above</td>
+                  <td>Obese</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- BMI calculator  -->
+          <div>
+            <h1 style="color: #ffffff; padding-bottom: 10px">
+              Calculate your BMI
+            </h1>
+            <p class="text-light-gray">
+              We believe fitness should be accessible to everyone, everywhere,
+              regardless of income or access to a gym.
+            </p>
+            <div class="bmi-calculator">
+              <div
+                style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px"
+              >
+                <input class="bmi-input" placeholder="Height/cm" type="text" />
+                <input class="bmi-input" placeholder="Weight/kg" type="text" />
+              </div>
+              <div
+                style="
+                  display: grid;
+                  grid-template-columns: 1fr 1fr;
+                  gap: 15px;
+                  margin-top: 20px;
+                "
+              >
+                <input class="bmi-input" placeholder="Age" type="text" />
+                <select
+                  class="bmi-input"
+                  style="width: 97%; color: rgba(255, 255, 255, 0.1)"
+                >
+                  <option disabled selected>Sex</option>
+                  <option>Male</option>
+                  <option>Female</option>
+                  <option>Others</option>
+                </select>
+              </div>
+              <select
+                class="bmi-input"
+                style="
+                  width: 97%;
+                  color: rgba(255, 255, 255, 0.1);
+                  margin-top: 20px;
+                "
+              >
+                <option disabled selected>Select an activity factor</option>
+              </select>
+
+              <button class="butn">Calculate</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- meet team -->
+
+      <div class="meet-discription">
+        <div>
+          <h1 class="meet">Meet Our Team</h1>
+          <p class="text-light-gray">
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or <br />
+            access to a gym.
+          </p>
+        </div>
+
+        <!-- img site -->
+        <!-- 
+        <div class="">
+          <div style="position: relative">
+            <img class="ig-1" src="images/trainer1.png" alt="" />
+            <div class="team-overlay-text">
+              <h4>Jerome Bell</h4>
+              <p>Trainer</p>
+            </div>
+          </div>
+          <img class="ig-1" src="images/trainer2.png" alt="" />
+          <img class="ig-1" src="images/trainer3.png" alt="" />
+
+          <img class="ig-1" src="images/trainer4.png" alt="" />
+          <img class="ig-1" src="images/trainer5.png" alt="" />
+          <img class="ig-1" src="images/trainer6.png" alt="" />
+        </div> -->
+        <div
+          style="
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 18px;
+            border-radius: 10px;
+          "
+        >
+          <div class="team-row">
+            <div style="position: relative">
+              <img class="ig-1" src="images/trainer1.png" alt="" />
+              <div class="team-overlay-text">
+                <h4>Jerome Bell</h4>
+                <p>Trainer</p>
+              </div>
+            </div>
+            <div style="position: relative">
+              <img class="ig-1" src="images/trainer2.png" alt="" />
+              <div class="team-overlay-text">
+                <h4>Cameron Williamson</h4>
+                <p>Trainer</p>
+              </div>
+            </div>
+            <div style="position: relative">
+              <img class="ig-1" src="images/trainer3.png" alt="" />
+              <div class="team-overlay-text">
+                <h4>Darrell Steward</h4>
+                <p>Trainer</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Second team row  -->
+          <div class="team-row">
+            <div style="position: relative">
+              <img class="ig-1" src="images/trainer4.png" alt="" />
+              <div class="team-overlay-text">
+                <h4>Dianne Russell</h4>
+                <p>Trainer</p>
+              </div>
+            </div>
+            <div style="position: relative">
+              <img class="ig-1" src="images/trainer5.png" alt="" />
+              <div class="team-overlay-text">
+                <h4>Cody Fisher</h4>
+                <p>Trainer</p>
+              </div>
+            </div>
+            <div style="position: relative">
+              <img class="ig-1" src="images/trainer6.png" alt="" />
+              <div class="team-overlay-text">
+                <h4>Theresa Webb</h4>
+                <p>Trainer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
     <footer>
-        
+      <div class="footer-bgrnd-container">
+        <div class="fot-ctnr">
+          <div class="footer-container display-flex">
+            <!-- fitness -->
+            <div>
+              <h1 class="fitnes">Fitness</h1>
+              <p class="text-light-gray fp">
+                We believe fitness should be accessible to everyone,<br />
+                everywhere, regardless of income or access to a gym. With <br />
+                hundreds of professional workouts.
+              </p>
+            </div>
+
+            <div class="gt-container display-flex">
+              <!-- get started-1-->
+              <div>
+                <h1 class="get-start">Get Started</h1>
+                <p class="text-light-gray pp">Service</p>
+                <p class="text-light-gray pp">Contact Us</p>
+                <p class="text-light-gray pp">Affiliate Program</p>
+                <p class="text-light-gray pp">About Us</p>
+              </div>
+
+              <!-- get started-2-->
+              <div>
+                <h1 class="get-start">Get Started</h1>
+                <p class="text-light-gray pp">Fitness</p>
+                <p class="text-light-gray pp">Platform</p>
+                <p class="text-light-gray pp">Workout Libary</p>
+                <p class="text-light-gray pp">App Design</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- last footer -->
+          <div class="b-dr"></div>
+
+          <div class="gm">
+            <p class="gg">All right reserved @Fitness 2024</p>
+          </div>
+        </div>
+      </div>
     </footer>
-</body> 
+  </body>
 </html>
