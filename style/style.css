@@ -884,11 +884,13 @@ select option {
 .butn{
   width: 169px;
   height: 54px;
+  border: none;
                
 }
 .bbtn{
   width: 169px;
   height: 54px;
+  
 
 }
 
