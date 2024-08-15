@@ -1033,6 +1033,7 @@ margin-left: 32px;
 width: 353px;
 height: 162px;
 margin-left: 17px;
+
 }
 .pt{
   font-weight: 400;
@@ -1079,6 +1080,7 @@ margin-left: 17px;
 .im-cn{
   width: 353px;
   height: 253px;
+
 }
 
 
@@ -1111,6 +1113,7 @@ margin-left: 17px;
   width: 353px;
   height: 124px;
   gap: 14px;
+  margin-top: -25px;
 }
 
 .b-h{
@@ -1130,6 +1133,7 @@ margin-left: 17px;
   width: 394px;
   height: 820px;
   /* flex-direction: column; */
+  margin-top: -30px;
 
 }
 
